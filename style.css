@@ -337,3 +337,23 @@ ul li a{
     padding: 1.5rem;
 
 }
+.link ul{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    overflow: hidden;
+   
+    gap: 0.5rem;
+}
+.link ul li{
+    border: none;
+    box-shadow: none;
+
+}
+.map{
+    width: 200px;
+    height: 200px;
+}
+.icon{
+    font-size: 2.5rem;
+}
