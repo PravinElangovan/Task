@@ -47,18 +47,24 @@ ul li a{
 
 .dropdown {
     position: relative;
+    
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color:white;
+    padding-left: 0px;
+    top: 2.5rem;
     width: 300px;
     height: auto;
+    left: 0px;
+    
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
 .dropdown-content a {
@@ -67,7 +73,10 @@ ul li a{
     display: block;
     padding: 10px 20px;
 }
-
+.dropdown-content :hover{
+    background-color: gray;
+    color: white;
+}
 /* Style the dropdown arrow (optional) */
 .dropdown .arrow::after {
     content: " ▼";
@@ -112,7 +121,7 @@ ul li a{
 }
 .achieve-section{
    
-    width: 80%;
+    width: 70%;
     margin: auto;
     
 }
@@ -126,21 +135,29 @@ ul li a{
     
 }
 .achieve-section .upper-div{
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
     margin-top:2.5rem;
     margin-left: 4rem;
     
     gap:9rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 9.2rem;
+    margin-top:2.5rem;
 }
 .achieve-section .lower-div{
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
     margin-right: 4.3rem;
     margin-bottom: 2.5rem;
     gap: 9rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 9.2rem;
+    margin-bottom: 3rem;
 }
 .achieve-section .lower-div div{
     border: 1px solid gray;
@@ -161,7 +178,7 @@ ul li a{
     font-weight: bold;
 }
 .apart-section{
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 .apart-section h3{
