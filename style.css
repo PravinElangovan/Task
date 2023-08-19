@@ -441,6 +441,8 @@ ul li a{
     .next-section .upper-div{
        display: flex;
        flex-direction: column;
+
+       
        gap: 2rem;
        align-items: center;
     }
@@ -461,18 +463,22 @@ ul li a{
         flex-direction: column;
         gap: 2rem;
         align-items: center;
+        
     }
     .achieve-section .lower-div{
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        align-items: center;
+        align-items:center;
+        margin-left: 4.5rem;
     }
     .achieve-section .upper-div{
         display: flex;
         flex-direction: column;
         gap: 2rem;
         align-items: center;
+        margin-bottom: 1rem;
+        margin-right: 4rem;
     }
     .action-section div{
         display: flex;
@@ -497,6 +503,7 @@ ul li a{
         height: auto;
     }
     .achieve-section .upper-div div{
+        
         width: 70%;
         height: auto;
     }
