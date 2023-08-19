@@ -427,5 +427,70 @@ ul li a{
     .branding-section div{
         display: block;
     }
+    .next-section .upper-div{
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+       align-items: center;
+    }
     
+    .next-section .lower-div{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .apart-section .upper-div{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .apart-section .lower-div{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .achieve-section .lower-div{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .achieve-section .upper-div{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .action-section div{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        align-items: center;
+    }
+    .apart-section .lower-div div{
+        width: 70%;
+        height: auto;
+    }
+    .apart-section .upper-div div{
+        width: 70%;
+        height: auto;
+    }
+    .next-section .lower-div div{
+        width: 70%;
+        height: auto;
+    }
+    .next-section .upper-div div{
+        width: 70%;
+        height: auto;
+    }
+    .achieve-section .upper-div div{
+        width: 70%;
+        height: auto;
+    }
+    .achieve-section .lower-div div{
+        width: 70%;
+        height: auto;
+    }
 }
