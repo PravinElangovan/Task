@@ -95,7 +95,7 @@ ul li a{
     justify-content: space-between;
     margin-top: 1.3rem;
     padding: 1.4rem;
-    gap:1.5rem;
+    gap:3rem;
    
 }
 .box {
@@ -123,17 +123,18 @@ ul li a{
 .achieve-section .upper-div{
     display: flex;
     justify-content: flex-start;
-    margin-top:1.3rem;
-    padding: 1.4rem;
-    gap:5rem;
+    margin-top:2.5rem;
+    margin-left: 4rem;
+    
+    gap:9rem;
     flex-wrap: wrap;
 }
 .achieve-section .lower-div{
     display: flex;
     justify-content: flex-end;
-    
-    padding: 1.4rem;
-    gap:5rem;
+    margin-right: 4.3rem;
+    margin-bottom: 2.5rem;
+    gap: 9rem;
     flex-wrap: wrap;
 }
 .achieve-section .lower-div div{
