@@ -437,6 +437,7 @@ ul li a{
     
     .branding-section div{
         display: block;
+        padding: 1rem;
     }
     .next-section .upper-div{
        display: flex;
@@ -466,19 +467,33 @@ ul li a{
         
     }
     .achieve-section .lower-div{
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         gap: 2rem;
         align-items:center;
-        margin-left: 4.5rem;
-    }
-    .achieve-section .upper-div{
+        margin-left: 4.5rem; */
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 2rem;
         align-items: center;
+        
+    }
+    .achieve-section .upper-div{
+        /* display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
         margin-bottom: 1rem;
-        margin-right: 4rem;
+        margin-right: 4rem; */
+        width: 100%;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-left: 0%;
+        
     }
     .action-section div{
         display: flex;
