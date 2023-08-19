@@ -3,7 +3,11 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
     font-family: 'Roboto', sans-serif;
-    
+    scroll-behavior: smooth;
+}
+
+h3{
+    color:gray;
 }
 .container{
     width: 100%;
