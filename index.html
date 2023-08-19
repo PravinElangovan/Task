@@ -9,10 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Task Round - Draw Lead</title>
 </head>
-<body>
+<body >
+    <div class="container">
     <div class="nav-container">
         <div class="left-nav">
             <a href="./">Home<span> > use cases </span></a>
@@ -39,8 +41,11 @@
                 </li>
                 <li><a href="#">Knowledge Center</a></li>
                 <li><a href="#">Enqiure Now</a></li>
-            </ul>
-        </div>        
+
+                
+            </ul>      
+        </div>  
+        <div id="toggle-menu">&#9776;</div> 
     </div>
     <div class="main-content">
         <div class="main-heading">
@@ -104,11 +109,17 @@
             <h3>Let's Assume,You take an action and make an enquiry...</h3>
             <div>
                 <div class="box">Discovery</div>
-                <div>-></div>
+                <div><span class="material-icons">
+                    trending_flat
+                    </span></div>
             <div class="box">customization</div>
-            <div>-></div>
+            <div><span class="material-icons">
+                trending_flat
+                </span></div>
             <div class="box">implementation</div>
-            <div>-></div>
+            <div><span class="material-icons">
+                trending_flat
+                </span></div>
             <div class="box">success Monitering</div>
             
          </div>
@@ -194,5 +205,8 @@
             
         </div>
     </div>
+</div>
+    <script src="./script.js"></script>
+
 </body>
 </html>
