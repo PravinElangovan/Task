@@ -9,8 +9,14 @@
 
 .container{
     width: 100%;
-   
     margin: auto;
+    background-color: RGB(39, 46, 56);
+    color:white;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(252,86,136);
+    font-size: 2rem;
 }
 .nav-container{
     display: flex;
@@ -19,7 +25,8 @@
     font-weight: bold;
     width: 95%;
     margin: auto;
-    margin-top: 1.3rem;
+    padding: 2rem;
+   
 }
 .nav-container .left-nav{
     display: flex;
@@ -34,15 +41,19 @@ ul {
 }
 ul li{
     list-style:none;
-    border: 1px solid gray;
     padding: 0.5rem;
-    border-radius:5%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     
+    
+}
+ul li:hover{
+   border-bottom: 3px solid rgb(252,86,136);
 }
 ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+ul li a{
+    font-weight:bolder;
 }
 
 .dropdown {
@@ -68,14 +79,14 @@ ul li a{
 }
 
 .dropdown-content a {
-    color: black;
+    color:black;
     text-decoration: none;
     display: block;
     padding: 10px 20px;
 }
 .dropdown-content :hover{
-    background-color: gray;
-    color: white;
+    border:none;
+    color:rgb(252,86,136);
 }
 /* Style the dropdown arrow (optional) */
 .dropdown .arrow::after {
@@ -86,14 +97,27 @@ ul li a{
     width:90%;
     margin:auto;
     margin-top: 5rem;
-    padding: 1.4rem;
-}
+    padding: 2rem;
+    background-color: rgb(252,86,136);
+    line-height: 3rem;
+    border-radius: 1rem;
+    
 
+}
+#border{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    height: .3rem;
+    background-color: rgb(251,226,232);
+    border-radius: 1rem;
+    
+}
 .branding-section h3{
 
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-size: 1.5rem;
 
 }
@@ -102,25 +126,43 @@ ul li a{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
-    padding: 1.2rem;
-    gap:5rem;
+    padding: 1rem;
+    gap:3rem;
+    background-color: rgb(56,63,73);
+    border-radius: 1rem;
+    margin: 4rem;
     
    
 }
 .branding-section div .box{
-    height: 130px;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 3.5rem;
+    
 }
+
 .box {
     border: 1px solid gray;
     line-height: 1.5rem;
     font-weight: 600;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#color-blue{
+    background-color: rgb(95,200,205);
+
+}
+#color-pink{
+    background-color: rgb(252,86,136);
 }
 .achieve-section{
    
     width: 70%;
     margin: auto;
+   
+    
+   
     
 }
 .achieve-section h3{
@@ -129,7 +171,7 @@ ul li a{
     justify-content: center;
     margin-top: 2rem;
     font-size: 1.5rem;
-    
+    margin-bottom: 5rem;
     
 }
 .achieve-section .upper-div{
@@ -165,6 +207,9 @@ ul li a{
     border-radius:5%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-weight: bold;
+
+    background-color: rgb(251,226,232);
+    color: black;
 }
 .achieve-section .upper-div div{
     border: 1px solid gray;
@@ -174,16 +219,24 @@ ul li a{
     border-radius:5%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-weight: bold;
+
+    background-color: rgb(251,226,232);
+    color: black;
 }
 .apart-section{
     width: 90%;
+    padding: 2rem;
     margin: auto;
+    background-color: rgb(56,63,73);
+    border-radius: 1rem;
+    margin-top: 5rem;
 }
-.apart-section h3{
+h3{
 
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-size: 1.5rem;
     
 }
@@ -212,6 +265,7 @@ ul li a{
     border-radius:5%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-weight: bold;
+    background-color: rgb(252,86,136);
 }
 .apart-section .upper-div div{
     border: 1px solid gray;
@@ -221,23 +275,20 @@ ul li a{
     border-radius:5%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-weight: bold;
+    background-color: rgb(95,200,205);
 }
 .next-section{
     width: 90%;
     margin: auto;
+    border-radius: 1rem;
+    padding:1rem;
 }
-.next-section h3{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-}
+
 .next-section .upper-div{
     display: flex;
     justify-content: flex-start;
     gap: 8rem;
     padding: 1.5rem;
-    margin-top: 1.3rem;
     flex-wrap: wrap;
 }
 .next-section .lower-div{
@@ -250,26 +301,31 @@ ul li a{
 .next-section .lower-div div{
     width: 300px;
     height: 100px;
-    border-radius:5%;
+    border-radius:1rem;
     border: 1px solid gray;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     font-weight: bold;
+    background-color: rgb(251,226,232);
+    color: black;
 }
 .next-section .upper-div div{
     width: 200px;
     height: 50px;
-    border-radius:5%;
+    border-radius:1rem;
     border: 1px solid gray;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     font-weight: bold;
+    background-color: rgb(251,226,232);
+    color: black;
+
 }
-.action-section h3{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 1.5rem;
+.action-section{
+
+    width: 90%;
+    margin: auto;
+    
 }
 .action-section div{
     display: flex;
@@ -277,11 +333,14 @@ ul li a{
     margin-top: 1.3rem;
     padding: 1.5rem;
     flex-wrap: wrap;
+    background-color: rgb(56,63,73);
+    
+
+    border-radius: 1rem;
 }
 .action-section .box{
 
     border: 1px solid gray;
-    
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius:7%;
 }
@@ -302,25 +361,21 @@ ul li a{
     width: 90%;
     margin: auto;
 }
-.price-section h3{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    flex-wrap: wrap;
-    
-}
+
 .price-section div{
     display: flex;
     justify-content: space-between;
     margin-top: 1.3rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
+    background-color: rgb(56,63,73);
+    border-radius: 1rem;
+    gap: 1rem;
 }
 
 .price-section div .box{
-    width: 100px;
-    height:100px;
+    width: 400px;
+    height:auto;
     padding: 1.5rem;
     border: 1.5px solid gray;
 }
@@ -328,60 +383,56 @@ ul li a{
     width: 90%;
     margin: auto;
 }
-.brand-partners h3{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    
-}
+
 .brand-partners div{
     display: flex;
-    justify-content: space-between;
-    margin-top: 1.3rem;
-    padding: 1.5rem;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding: 1rem;
     margin-bottom: 1.5rem;
+    
     
 }
 
 .brand-partners div .box{
-    width: 100px;
-    height:100px;
+    width: 10px;
+    height:auto;
     padding: 1.5rem;
-    border: 1.5px solid gray;
+    border: 1.5px solidred;
+    border-radius: 50%;
 }
-.getstarted-section h3{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 1.5rem;
+.brand-partners img{
+    border-radius: 10%;
+    width: 100px;
 }
+
 .getstarted-section div{
     display: flex;
     justify-content: center;
     gap: 5rem;
     margin-top: 1rem;
     padding: 1.5rem;
+    
 }
 .getstarted-section div div{
     font-weight: bold;
 }
-.footer h3{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    flex-wrap: wrap;
+.footer{
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
 }
 .footer div{
 
     display: flex;
-    justify-content: space-between;
-    gap: 6rem;
+    justify-content: space-around;
+    gap: 2rem;
     margin-top: 0.5rem;
     padding: 1.5rem;
     font-weight: bold;
     flex-wrap: wrap;
+    background-color: rgb(56,63,73);
+    border-radius: 1rem;
 }
 .link ul{
     display: flex;
@@ -396,15 +447,21 @@ ul li a{
     box-shadow: none;
 
 }
+.link ul li a:hover{
+    color:rgb(252,86,136);
+}
 .map{
     width: 200px;
     height: 200px;
-    border:1px solid gray;
+    border:1px solid white;
     border-radius: 1.5rem;
 }
 .icon{
     font-size: 2.5rem;
-    color:black
+    color:white;
+}
+.icon:hover{
+    color:rgb(252,86,136);
 }
 #toggle-menu{
    display: flex;
@@ -412,12 +469,22 @@ ul li a{
    display:none;
    cursor: pointer;
 }
+
 .brand-partners div .box{
 
     border: none;
     box-shadow: none;
 }
-
+button{
+    background: linear-gradient(to right, rgb(138, 80, 108), rgb(106, 144, 161));
+    padding: 20px;
+    color: white;
+    border:none;
+    border-radius: 2rem;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor:pointer;
+}
 
 /* this code for reponsive */
 
@@ -437,6 +504,7 @@ ul li a{
         background-color:white;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
         padding: 0;
+        color: black;
         
     }
     h3{
