@@ -79,7 +79,7 @@ ul li a{
 }
 
 .dropdown-content a {
-    color:black;
+    color:white;
     text-decoration: none;
     display: block;
     padding: 10px 20px;
@@ -122,7 +122,7 @@ ul li a{
 
 }
 .branding-section div {
-    width: 90%;
+    max-width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -135,7 +135,7 @@ ul li a{
    
 }
 .branding-section div .box{
-    width: 500px;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 3.5rem;
@@ -358,7 +358,7 @@ h3{
     
 }
 .price-section{
-    width: 90%;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -374,7 +374,7 @@ h3{
 }
 
 .price-section div .box{
-    width: 400px;
+    max-width: 400px;
     height:auto;
     padding: 1.5rem;
     border: 1.5px solid gray;
@@ -418,7 +418,7 @@ h3{
     font-weight: bold;
 }
 .footer{
-    width: 90%;
+    max-width: 90%;
     margin: auto;
     padding: 2rem;
 }
@@ -451,7 +451,7 @@ h3{
     color:rgb(252,86,136);
 }
 .map{
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     border:1px solid white;
     border-radius: 1.5rem;
@@ -494,14 +494,18 @@ button{
     #toggle-menu{
         display: block;
     }
-   
+    .nav-container{
+
+        padding: 0%;
+        padding-top: 1rem;
+    }
     .nav-container .right-nav ul{
         display: none;
         flex-direction: column;
         position: absolute;
         right: 1rem;
         top: 5rem;
-        background-color:white;
+        background-color:black;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
         padding: 0;
         color: black;
@@ -521,6 +525,15 @@ button{
     .branding-section div{
         display: block;
         padding: 1rem;
+        width: 100%;
+        margin: auto;
+    }
+    .branding-section div .box{
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom:1rem ;
     }
     .next-section .upper-div{
        display: flex;
@@ -609,19 +622,37 @@ button{
         width: 70%;
         height: auto;
     }
+    .price-section {
+        width: 100%;
+        margin: auto;
+    }
+    .price-section div{
+        display: flex;
+        flex-direction: column;
+    }
     .footer div{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
+    
     .footer .link ul{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        width: 100%;
     }
     .footer .social-icons{
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    .brand-partners{
+        width: 100%;
+        padding:1rem;
+    }
+    .brand-partners img{
+        width: 50px;
     }
 }
