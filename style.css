@@ -47,9 +47,11 @@ ul li{
     padding: 0.5rem;
     
     
+    
 }
 ul li:hover{
    border-bottom: 3px solid rgb(252,86,136);
+   
 }
 ul li a{
     text-decoration: none;
@@ -520,8 +522,12 @@ button{
         color: black;
         
     }
+    .dropdown-content a{
+        color: white;
+    }
     h3{
         text-align: center;
+        font-family: 'Dancing Script', cursive;
     }  
     .shownav{
         display:flex !important; 
